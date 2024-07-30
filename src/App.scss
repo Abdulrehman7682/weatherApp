@@ -1,0 +1,59 @@
+@import "./scss/bootstrap";
+#root{
+    display: flex ;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../public/Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width:550px ;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    }
+    input{
+        border: none;
+        outline: 0;
+        border-radius: 50px;
+        width: 300px;
+        font-size: 20px;
+    }
+    button.button{
+        border: none;
+        outline: 0;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+        margin-top: 50px;
+    }
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    .col img{
+        width: 90px;
+        margin-right: 5px;
+    }
+    .hum, .wind{
+        font-size: 20px;
+    }
+    .hum p, .wind p{
+        margin: 0px;
+    }
